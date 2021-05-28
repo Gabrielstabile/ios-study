@@ -24,7 +24,8 @@
 		5F183A2226596F620083467C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F183A2526596F620083467C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F183A2726596F620083467C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F7DEAA5265D5EB500CEBEB8 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5F6E8099265DAE140068B1D2 /* ClasseInstanciaEtc.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ClasseInstanciaEtc.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5F7DEAA5265D5EB500CEBEB8 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = "eggplant-brownie/Playground/MyPlayground.playground"; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +63,20 @@
 				5F183A1D26596F5F0083467C /* ViewController.swift */,
 				5F183A1F26596F5F0083467C /* Main.storyboard */,
 				5F183A2226596F620083467C /* Assets.xcassets */,
-				5F7DEAA5265D5EB500CEBEB8 /* MyPlayground.playground */,
 				5F183A2426596F620083467C /* LaunchScreen.storyboard */,
 				5F183A2726596F620083467C /* Info.plist */,
+				5F6E809B265DAE290068B1D2 /* Playground */,
 			);
 			path = "eggplant-brownie";
+			sourceTree = "<group>";
+		};
+		5F6E809B265DAE290068B1D2 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				5F6E8099265DAE140068B1D2 /* ClasseInstanciaEtc.playground */,
+				5F7DEAA5265D5EB500CEBEB8 /* MyPlayground.playground */,
+			);
+			path = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
