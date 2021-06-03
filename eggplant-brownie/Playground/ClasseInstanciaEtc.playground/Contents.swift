@@ -44,3 +44,10 @@ func exibeNomeDaRefeicao() {
 
 exibeNomeDaRefeicao()
 
+let idade = Int("22a")
+
+if let idadeTratada = idade {
+    print(idadeTratada)
+}else{
+    print("deu ruim")
+}
