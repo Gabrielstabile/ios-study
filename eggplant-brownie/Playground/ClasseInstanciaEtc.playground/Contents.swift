@@ -9,8 +9,8 @@ class Refeicao {
 
 // duas formas de como estanciar uma classe: forma implicita e explicita
 
-/* let refeicao = Refeicao */
-let refeicao: Refeicao = Refeicao()
+//let refeicao: Refeicao = Refeicao()
+let refeicao = Refeicao()
 
 refeicao.nomeDaComida = "churrasco"
 

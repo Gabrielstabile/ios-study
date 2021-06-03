@@ -56,7 +56,7 @@ apresentacaoPessoalComParametros("Gabriel", 22)
 
 
 
-
+// usamos a seta (->) para indicar que iremos retornar algum valor neste método
 func todasAsCalorias(totalDeCalorias: [Double] /* Array<Double> */) -> Double{
     var total = 0.0
     
